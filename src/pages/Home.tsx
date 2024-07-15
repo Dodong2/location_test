@@ -1,4 +1,4 @@
-import React from "react"
+
 import MainContainer from "../components/common/MainContainer"
 import VibrationButton from "../components/common/sample vibrate button/VibrationButton"
 import { handleVibrate } from "../utils/VibrationFunction"

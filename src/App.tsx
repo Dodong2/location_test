@@ -1,4 +1,4 @@
-// import React from "react";
+
 import "./assets/css/App.css";
 import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
