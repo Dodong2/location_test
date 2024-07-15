@@ -1,0 +1,2 @@
+hooks/: Custom hooks that encapsulate reusable logic. For example, useAuth, useFetch, etc.
+

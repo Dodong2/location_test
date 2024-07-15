@@ -1,0 +1,35 @@
+/*--------------------(  Default CSS  )--------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* destroy Scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+body {
+    height: 100svh;
+}
+
+/* Fonts Montserrat*/
+@font-face {
+    font-family: "montserrat";
+    line-height: 24.38px;
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+  }
+  /* Fonts Lora */
+  @font-face {
+    font-family: "lora";
+    line-height: 24.38px;
+    src: url("../fonts/Lora-VariableFont_wght.ttf");
+  }
+  /* Fonts Hind */
+  @font-face {
+    font-family: "hind";
+    line-height: 24.38px;
+    src: url("../fonts/HindMadurai-Light.ttf");
+  }

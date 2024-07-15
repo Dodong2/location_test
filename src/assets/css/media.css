@@ -1,0 +1,10 @@
+/*--------------------(  Screen Sizing CSS  )--------------------*/
+/********** Media Queries **********/
+
+/********** desktop **********/
+@media (min-width: 992px) {
+    .main-container {
+        width: 500px;
+        margin: auto;
+    }
+}

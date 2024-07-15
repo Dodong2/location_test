@@ -1,0 +1,10 @@
+/*--------------------(  Colors CSS  )--------------------*/
+/********** Colors **********/
+:root {
+    --light-mode: #ffffff;
+    --dark-mode: #06293d;
+    --primary: #06293d;
+    --secondary: #256D85;
+    --tertiary: #d0d0d0;
+    --fade: .6;
+  }
