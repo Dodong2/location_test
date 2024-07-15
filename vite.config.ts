@@ -11,7 +11,7 @@ const manifestForPlugin = {
   ],
   manifest: {
     name: 'Castar Web App',
-    short_name: 'Castar Web App',
+    short_name: 'Castar web/app template',
     description: 'Castar Portfolio App',
     icons: [
       {
