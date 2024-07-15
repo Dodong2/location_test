@@ -17,7 +17,7 @@ const Home = () => {
     <>
     <MainContainer>
         <VibrationButton label="click to vibrate" onClick={handleVibrate}></VibrationButton>
-        <button onClick={handleVibration}></button>
+        <button onClick={handleVibration}> try </button>
       </MainContainer>
     </>
   )
