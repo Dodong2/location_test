@@ -5,11 +5,19 @@ import { handleVibrate } from "../utils/VibrationFunction"
 
 const Home = () => {
 
+  const handleVibration = () => {
+    if(navigator.vibrate) {
+      navigator.vibrate(1000)
+    } else {
+      alert('not working')
+    }
+  }
 
   return (
     <>
     <MainContainer>
         <VibrationButton label="click to vibrate" onClick={handleVibrate}></VibrationButton>
+        <button onClick={handleVibration}></button>
       </MainContainer>
     </>
   )
