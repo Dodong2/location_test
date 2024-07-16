@@ -19,7 +19,7 @@ const Home = () => {
         <VibrationButton
           label="click to vibrate"
           onClick={handleVibrate}
-          setVibrationError={setVibrationError}
+          VibrateError={setVibrationError}
           ClassName="sample-btn"
         ></VibrationButton>
         {vibrationError && <VibrationNotWork/>}
