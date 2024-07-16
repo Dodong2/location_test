@@ -15,21 +15,18 @@ body {
     height: 100svh;
 }
 
-/* Fonts Montserrat*/
+/* Sample Fonts */
 @font-face {
-    font-family: "montserrat";
-    line-height: 24.38px;
-    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+    font-family: "poppins-light";
+    src: url("../fonts/Poppins-Light.ttf");
   }
-  /* Fonts Lora */
+  
   @font-face {
     font-family: "lora";
-    line-height: 24.38px;
     src: url("../fonts/Lora-VariableFont_wght.ttf");
   }
-  /* Fonts Hind */
+
   @font-face {
-    font-family: "hind";
-    line-height: 24.38px;
-    src: url("../fonts/HindMadurai-Light.ttf");
+    font-family: "poppins-bold";
+    src: url("../fonts/Poppins-Bold.ttf");
   }

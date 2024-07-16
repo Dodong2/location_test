@@ -1,13 +1,15 @@
 
 interface ButtonProps {
     label: string
-    onClick: () => void
+    onClick: (setVibrationError: React.Dispatch<React.SetStateAction<boolean>>) => void;
+    ClassName: string
+    setVibrationError: React.Dispatch<React.SetStateAction<boolean>>
 }
 
-const VibrationButton: React.FC<ButtonProps> = ({ label, onClick }) => {
+const VibrationButton: React.FC<ButtonProps> = ({ label, onClick, ClassName, setVibrationError }) => {
   return (
     <>
-      <button onClick={onClick}>{label}</button>
+      <button onClick={() => onClick(setVibrationError)} className={ClassName}>{label}</button>
     </>
   )
 }
