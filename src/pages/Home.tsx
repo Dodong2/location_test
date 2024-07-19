@@ -8,7 +8,6 @@ import SampleFooter from "../components/common/sample vibrate button/SampleFoote
 import { handleVibrate } from "../utils/VibrationFunction";
 import { VibrationNotWork } from "../validations/VibrationValidation";
 
-
 const Home = () => {
   const [vibrationError, setVibrationError] = useState(false);
 
